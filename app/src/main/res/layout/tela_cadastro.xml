@@ -4,51 +4,94 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jeniffer.projeto_eng.TelaCadastro">
+    tools:context="com.example.jeniffer.projeto_eng.TelaCadastro"
+    android:background="#FFFFE0">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="393dp" />
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nome"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="343dp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="28dp" />
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nome"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="295dp" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="96dp" />
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nome"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nome"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nome"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="24dp" />
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteY="16dp"
-        tools:layout_editor_absoluteX="101dp" />
+        android:hint="Nome"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="139dp"
+        android:layout_height="37dp"
+        android:text="Cadastrar"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="412dp"
+        android:background="#EEE8AA"/>
 
     <EditText
         android:id="@+id/editText4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="88dp" />
+        android:hint="Nome"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="144dp" />
 
     <FrameLayout
         android:layout_width="0dp"
