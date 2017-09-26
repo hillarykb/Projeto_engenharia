@@ -16,6 +16,17 @@
         android:hint="Nome"
         android:textAlignment="center"
         tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="17dp"
         tools:layout_editor_absoluteY="295dp" />
 
     <EditText
