@@ -14,123 +14,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="5dp">
 
-        <EditText
-            android:id="@+id/editText7"
-            android:layout_width="280dp"
-            android:layout_height="50dp"
-            android:layout_above="@+id/editText6"
-            android:layout_alignEnd="@+id/editText6"
-            android:layout_alignRight="@+id/editText6"
-            android:layout_marginBottom="29dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Email"
-            android:textSize="15sp"
-            tools:layout_editor_absoluteX="66dp"
-            tools:layout_editor_absoluteY="285dp" />
-
-        <EditText
-            android:id="@+id/editText6"
-            android:layout_width="278dp"
-            android:layout_height="46dp"
-            android:layout_above="@+id/editText5"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="13dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Cargo"
-            android:textSize="15sp"
-            tools:layout_editor_absoluteX="66dp"
-            tools:layout_editor_absoluteY="353dp" />
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="139dp"
-            android:layout_height="48dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginBottom="12dp"
-            android:layout_marginEnd="15dp"
-            android:layout_marginRight="15dp"
-            android:background="#EEE8AA"
-            android:text="Cadastrar"
-            tools:layout_editor_absoluteX="229dp"
-            tools:layout_editor_absoluteY="429dp" />
-
-
-        <Switch
-            android:id="@+id/switch1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/editText7"
-            android:layout_alignEnd="@+id/button2"
-            android:layout_alignRight="@+id/button2"
-            android:layout_marginBottom="23dp"
-            android:layout_marginEnd="14dp"
-            android:layout_marginRight="14dp"
-            android:text="Administrador "
-            android:textSize="15sp"
-            tools:layout_editor_absoluteX="215dp"
-            tools:layout_editor_absoluteY="136dp" />
-
-        <EditText
-            android:id="@+id/editText3"
-            android:layout_width="166dp"
-            android:layout_height="47dp"
-            android:layout_above="@+id/editText7"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginLeft="18dp"
-            android:layout_marginStart="18dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="ID acesso"
-            android:textSize="15sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="89dp" />
-
-        <EditText
-            android:id="@+id/editText4"
-            android:layout_width="165dp"
-            android:layout_height="39dp"
-            android:layout_alignEnd="@+id/textView2"
-            android:layout_alignRight="@+id/textView2"
-            android:layout_below="@+id/button2"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Senha"
-            android:textSize="15sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="153dp" />
-
-        <EditText
-            android:id="@+id/editText5"
-            android:layout_width="280dp"
-            android:layout_height="56dp"
-            android:layout_above="@+id/textView2"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="17dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name"
-            android:textSize="15sp"
-            tools:layout_editor_absoluteX="66dp"
-            tools:layout_editor_absoluteY="213dp" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="243dp"
-            android:layout_height="41dp"
-            android:layout_above="@+id/button2"
-            android:layout_alignLeft="@+id/editText3"
-            android:layout_alignStart="@+id/editText3"
-            android:layout_marginBottom="37dp"
-            android:layout_marginLeft="13dp"
-            android:layout_marginStart="13dp"
-            android:text="Cadastro de usuário"
-            android:textSize="25sp"
-            tools:layout_editor_absoluteX="71dp"
-            tools:layout_editor_absoluteY="16dp" />
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Button" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
