@@ -17,9 +17,12 @@ public class TelaLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tela_login);
 
-       /* editUsuario = (EditText)findViewById(R.id.editUsuario);
+        editUsuario = (EditText)findViewById(R.id.editUsuario);
         editSenha = (EditText)findViewById(R.id.editSenha);
         btnConectar = (Button)findViewById(R.id.btnConectar);
-        txtCadastro = (TextView)findViewById(R.id.txtCadastro);*/
+        txtCadastro = (TextView)findViewById(R.id.txtCadastro);
+
+
+
     }
 }

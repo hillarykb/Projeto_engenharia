@@ -7,24 +7,89 @@
     tools:context="com.example.jeniffer.projeto_eng.TelaCadastro"
     android:background="#FFFFE0">
 
-    <RelativeLayout
-        android:layout_width="375dp"
-        android:layout_height="502dp"
-        android:layout_marginBottom="5dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="5dp">
+    <TextView
+        android:id="@+id/textTitulo" android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro de Usuário"
+        tools:layout_editor_absoluteY="43dp"
+        tools:layout_editor_absoluteX="80dp" />
+
+    <EditText
+        android:id="@+id/editUsuario"
+        android:layout_width="208dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Usuário"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <EditText
+        android:id="@+id/editSenha"
+        android:layout_width="209dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Senha"
+        tools:layout_editor_absoluteY="189dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Switch
+        android:id="@+id/swtAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Administrador"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="336dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteY="368dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="343dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nome"
+        tools:layout_editor_absoluteY="256dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/editCargo"
+        android:layout_width="341dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Cargo"
+        tools:layout_editor_absoluteY="307dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="151dp"
+        android:layout_height="36dp"
+        android:text="Cadastrar"
+        android:background="#EEE8AA"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="151dp"
+        android:layout_height="36dp"
+        android:text="Cancelar"
+        android:background="#EEE8AA"
+        tools:layout_editor_absoluteY="459dp"
+        tools:layout_editor_absoluteX="36dp" />
 
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginBottom="20dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginRight="40dp"
-            android:text="Button" />
-    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
