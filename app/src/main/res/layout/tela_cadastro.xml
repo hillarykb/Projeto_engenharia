@@ -7,89 +7,147 @@
     tools:context="com.example.jeniffer.projeto_eng.TelaCadastro"
     android:background="#FFFFE0">
 
-    <TextView
-        android:id="@+id/textTitulo" android:textSize="25sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cadastro de Usuário"
-        tools:layout_editor_absoluteY="43dp"
-        tools:layout_editor_absoluteX="80dp" />
+    <RelativeLayout
+        android:layout_width="373dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="6dp">
 
-    <EditText
-        android:id="@+id/editUsuario"
-        android:layout_width="208dp"
-        android:layout_height="39dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Usuário"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="134dp" />
+        <TextView
+            android:id="@+id/textTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="28dp"
+            android:text="Cadastro de Usuário"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="43dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/editUsuario"
+            android:layout_alignStart="@+id/editUsuario" />
 
-    <EditText
-        android:id="@+id/editSenha"
-        android:layout_width="209dp"
-        android:layout_height="39dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Senha"
-        tools:layout_editor_absoluteY="189dp"
-        tools:layout_editor_absoluteX="16dp" />
+        <EditText
+            android:id="@+id/editCargo"
+            android:layout_width="341dp"
+            android:layout_height="41dp"
+            android:layout_above="@+id/btnCadastrar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:ems="10"
+            android:hint="Cargo"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="307dp" />
 
-    <Switch
-        android:id="@+id/swtAdmin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Administrador"
-        tools:layout_editor_absoluteX="240dp"
-        tools:layout_editor_absoluteY="162dp" />
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="343dp"
+            android:layout_height="38dp"
+            android:layout_alignLeft="@+id/editSenha"
+            android:layout_alignStart="@+id/editSenha"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="Nome"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="256dp" />
 
-    <EditText
-        android:id="@+id/editEmail"
-        android:layout_width="336dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteY="368dp"
-        tools:layout_editor_absoluteX="16dp" />
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="336dp"
+            android:layout_height="46dp"
+            android:layout_above="@+id/editCargo"
+            android:layout_alignLeft="@+id/editCargo"
+            android:layout_alignStart="@+id/editCargo"
+            android:layout_marginBottom="21dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="368dp" />
 
-    <EditText
-        android:id="@+id/editNome"
-        android:layout_width="343dp"
-        android:layout_height="38dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Nome"
-        tools:layout_editor_absoluteY="256dp"
-        tools:layout_editor_absoluteX="16dp" />
+        <Switch
+            android:id="@+id/swtAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Administrador"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="162dp"
+            android:layout_below="@+id/editUsuario"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp" />
 
-    <EditText
-        android:id="@+id/editCargo"
-        android:layout_width="341dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Cargo"
-        tools:layout_editor_absoluteY="307dp"
-        tools:layout_editor_absoluteX="16dp" />
+        <EditText
+            android:id="@+id/editSenha"
+            android:layout_width="209dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="189dp"
+            android:layout_alignTop="@+id/swtAdmin"
+            android:layout_alignRight="@+id/editUsuario"
+            android:layout_alignEnd="@+id/editUsuario"
+            android:layout_marginTop="11dp" />
 
-    <Button
-        android:id="@+id/btnCadastrar"
-        android:layout_width="151dp"
-        android:layout_height="36dp"
-        android:text="Cadastrar"
-        android:background="#EEE8AA"
-        tools:layout_editor_absoluteX="217dp"
-        tools:layout_editor_absoluteY="459dp" />
+        <EditText
+            android:id="@+id/editUsuario"
+            android:layout_width="208dp"
+            android:layout_height="39dp"
+            android:layout_alignLeft="@+id/btnCancelar"
+            android:layout_alignStart="@+id/btnCancelar"
+            android:layout_below="@+id/textTitulo"
+            android:layout_marginTop="33dp"
+            android:ems="10"
+            android:hint="Usuário"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="134dp" />
 
-    <Button
-        android:id="@+id/btnCancelar"
-        android:layout_width="151dp"
-        android:layout_height="36dp"
-        android:text="Cancelar"
-        android:background="#EEE8AA"
-        tools:layout_editor_absoluteY="459dp"
-        tools:layout_editor_absoluteX="36dp" />
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="151dp"
+            android:layout_height="48dp"
+            android:layout_alignEnd="@+id/editEmail"
+            android:layout_alignRight="@+id/editEmail"
+            android:layout_alignTop="@+id/btnCancelar"
+            android:background="#EEE8AA"
+            android:text="Cadastrar"
+            tools:layout_editor_absoluteX="217dp"
+            tools:layout_editor_absoluteY="459dp" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="151dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:background="#EEE8AA"
+            android:text="Cancelar"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="459dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/robo"
+            android:layout_alignTop="@+id/textTitulo"
+            android:layout_alignRight="@+id/editEmail"
+            android:layout_alignEnd="@+id/editEmail"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp" />
+
+    </RelativeLayout>
 
 
 </android.support.constraint.ConstraintLayout>
